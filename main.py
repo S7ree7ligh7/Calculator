@@ -8,9 +8,10 @@ def formula(job1, job2, money_wanted, taxes):
 taxes = .2
 money_wanted = 10000
 print("Job 1 pay rate: ", end='')
-job_one = int(input())
+job_one = float(input())
 print("Job 2 pay rate: ", end='')
-job_two = int(input())
+job_two = float(input())
 print("Amount of months: ")
 print(formula(job_one, job_two, money_wanted, taxes))
-#
+
+# Copy this to the other website
