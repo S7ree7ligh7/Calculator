@@ -13,3 +13,4 @@ print("Job 2 pay rate: ", end='')
 job_two = int(input())
 print("Amount of months: ")
 print(formula(job_one, job_two, money_wanted, taxes))
+#
